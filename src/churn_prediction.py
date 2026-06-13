@@ -83,3 +83,9 @@ joblib.dump(model, "models/churn_model.pkl")
 print("\nModel saved successfully!")
 print("Graph saved in images folder.")
 print("Model saved in models folder.")
+from sklearn.metrics import accuracy_score
+
+y_pred = model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+
+print(f"Model Accuracy: {accuracy*100:.2f}%")

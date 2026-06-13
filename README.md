@@ -24,7 +24,7 @@ models/
 src/
 
 ## Accuracy
-(Write your accuracy here after running the model)
+Achieved 82.11% accuracy using Logistic Regression on the Telco Customer Churn dataset.
 
 ## Author
 Rishika Goyal
